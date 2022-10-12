@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayListPushZeroToTheEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayListCopyMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListPushZeroToTheEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayListPushZeroToTheEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ArrayListPushZeroToTheEnd">
-    <configuration name="ArrayListMultipleDataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListMultipleDataTypes" />
+}</component>
+  <component name="RunManager" selected="Application.ArrayListCopyMethod">
+    <configuration name="ArrayListCopyMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListCopyMethod" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,19 +70,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpGradReverseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpGradReverseArrayList" />
+    <configuration name="UpGradLinkedListIteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpGradLinkedListIteration" />
+      <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListCopyMethod" />
         <item itemvalue="Application.ArrayListPushZeroToTheEnd" />
+        <item itemvalue="Application.UpGradLinkedListIteration" />
         <item itemvalue="Application.UpGradLinkedListFindElement" />
         <item itemvalue="Application.ReverseArrayList" />
-        <item itemvalue="Application.UpGradReverseArrayList" />
-        <item itemvalue="Application.ArrayListMultipleDataTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -108,12 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665452162227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Java program to move zero value element(s) to end of integer dynamic array.">
+      <created>1665481165119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665481165119</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit." />
     <MESSAGE value="Added Java program of dynamic array having multiple datatypes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java program of dynamic array having multiple datatypes." />
+    <MESSAGE value="Added Java program to move zero value elements to end of integer dynamic array." />
+    <MESSAGE value="Added Java program to move zero value element(s) to end of integer dynamic array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Java program to move zero value element(s) to end of integer dynamic array." />
   </component>
 </project>

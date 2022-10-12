@@ -34,6 +34,7 @@ public class ArrayListPushZeroToTheEnd
 
             System.out.println("Input element " + i + "-> ");
             modArr.add(i, input.nextInt());
+            
 
         }
 

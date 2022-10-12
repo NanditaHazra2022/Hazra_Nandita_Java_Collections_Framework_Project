@@ -21,13 +21,16 @@ public class ArrayListBulkOperations
 
         /* Adding elements to
          * the string dynamic array in bulk. */
-        Collections.addAll(items, "Books",
+        Collections.addAll(items, "Storybooks",
                 "Toys",
                 "Puzzles",
                 "Musical-instruments",
                 "Artwork",
                 "Craft-work",
-                "Exercising-equipments");
+                "Exercising-equipments",
+                "Articles",
+                "Articles",
+                "Articles");
 
         /* Printing the newly created
          * string dynamic array. */
@@ -38,6 +41,20 @@ public class ArrayListBulkOperations
             System.out.print(o + " "); // Elements are printed space apart.
 
         }
+        System.out.println('\n');
+
+        /* Printing the modified
+         * string dynamic array. */
+        System.out.println("Modified string dynamic array-> ");
+        Collections.replaceAll(items, "Articles", "Magazines");
+
+        for (Object o: items)
+        {
+
+            System.out.print(o + " "); // Elements are printed space apart.
+
+        }
+
 
     }   // End of execution thread.
 

@@ -1,8 +1,9 @@
 /* Java program to demonstrate
  * bulk operation of
- * adding elements
+ * adding and replacing elements
  * in dynamic array
- * using addAll method. */
+ * using addAll method
+ * and replaceAll method respectively. */
 
 // Importing required classes.
 import java.util.ArrayList;
@@ -41,7 +42,7 @@ public class ArrayListBulkOperations
             System.out.print(o + " "); // Elements are printed space apart.
 
         }
-        System.out.println('\n');
+        System.out.println('\n'); // Moving cursor to next 2 lines.
 
         /* Printing the modified
          * string dynamic array. */

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="Added Java program to perform bulk operations in dynamic array.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListBulkOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayListBulkOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665583062877</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Modified Java program: ArrayListBulkOperations.java to add usage of Collections.replaceAll method.">
+      <created>1665601395122</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665601395122</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +154,7 @@
     <MESSAGE value="Added Java program to copy from source dynamic array to destination dynamic array." />
     <MESSAGE value="Added Java program to perform binary search in dynamic array." />
     <MESSAGE value="Added Java program to perform bulk operations in dynamic array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java program to perform bulk operations in dynamic array." />
+    <MESSAGE value="Modified Java program: ArrayListBulkOperations.java to add usage of Collections.replaceAll method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: ArrayListBulkOperations.java to add usage of Collections.replaceAll method." />
   </component>
 </project>

@@ -40,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MapImplementations">
+  <component name="RunManager" selected="Application.SortedSetImplementation">
     <configuration name="ArrayListBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListBinarySearch" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
@@ -62,13 +62,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListPushZeroToTheEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListPushZeroToTheEnd" />
-      <module name="Hazra_Nandie_Java_Collections_Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MapImplementations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MapImplementations" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
@@ -76,13 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortedSetImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortedSetImplementation" />
+      <module name="Hazra_Nandie_Java_Collections_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedSetImplementation" />
         <item itemvalue="Application.MapImplementations" />
         <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.ArrayListBinarySearch" />
         <item itemvalue="Application.ArrayListCopyMethod" />
-        <item itemvalue="Application.ArrayListPushZeroToTheEnd" />
       </list>
     </recent_temporary>
   </component>

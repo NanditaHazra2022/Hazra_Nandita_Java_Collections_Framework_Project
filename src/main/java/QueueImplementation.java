@@ -19,11 +19,12 @@ public class QueueImplementation
         // Adding numbers 1 to 10, to the queue.
         for (int i = 1;
              i <= 10;
-             i++) {
+             i++)
+        {   // Start of for loop.
 
             numberQueue.add(i);
 
-        }
+        }   // End of for loop.
 
         // Printing elements of the queue.
         System.out.println("Elements of integer queue-> "

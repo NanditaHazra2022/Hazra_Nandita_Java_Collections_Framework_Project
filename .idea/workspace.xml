@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DequeImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SetImplementations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QueueImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueueImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MapImplementations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MapImplementations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DequeImplementation">
+  <component name="RunManager" selected="Application.SetImplementations">
     <configuration name="ArrayListIterations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListIterations" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
@@ -63,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueImplementation" />
+    <configuration name="SetImplementations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetImplementations" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetImplementations" />
         <item itemvalue="Application.DequeImplementation" />
         <item itemvalue="Application.VectorThreadSafeEnumeration" />
         <item itemvalue="Application.ArrayPartitionPositiveNegativeNumbers" />
         <item itemvalue="Application.ArrayListIterations" />
-        <item itemvalue="Application.QueueImplementation" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665783362774</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Java program: DequeImplementation.java to demonstrate implementation of Deque interface.">
+      <created>1665813350651</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665813350651</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +215,7 @@
     <MESSAGE value="Added Java program: ArrayListIterations.java to demonstrate forward, backward and alternate position iteration in dynamic array." />
     <MESSAGE value="Added Java program: ArrayPartitionPositiveNegativeNumbers.java to partition an array for positive and negative numbers. Dynamic array method is used for the same." />
     <MESSAGE value="Added Java program: VectorThreadSafeEnumeration.java to demonstrate enumeration of vector." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: VectorThreadSafeEnumeration.java to demonstrate enumeration of vector." />
+    <MESSAGE value="Added Java program: DequeImplementation.java to demonstrate implementation of Deque interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: DequeImplementation.java to demonstrate implementation of Deque interface." />
   </component>
 </project>

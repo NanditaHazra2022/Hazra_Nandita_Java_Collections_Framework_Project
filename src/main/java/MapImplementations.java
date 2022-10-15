@@ -48,7 +48,7 @@ class MapImplementations
         System.out.println("Set view of HashMap: "
                 + numbers.entrySet());
 
-        // Removing elements from HashMap.
+        // Removing element from HashMap.
         int removedValue
                 = numbers.remove("Two");   // The remove method returns the value associated with the key that has been removed.
         System.out.println("Removed value from HashMap: "
@@ -74,6 +74,7 @@ class MapImplementations
         numbers1.put("Four", 4);
         numbers1.put("Five", 5);
 
+        // Printing newly created LinkedHashMap.
         System.out.println("Newly created LinkedHashMap: "
                 + numbers1);
 

@@ -31,6 +31,16 @@ class MapImplementations
         numbers.put("Three", 3);
         numbers.put("Four", 4);
         numbers.put("Five", 5);
+        numbers.put("Six", 6);
+        numbers.put("Seven", 7);
+        numbers.put("Eight", 8);
+        numbers.put("Nine", 9);
+        numbers.put("Ten", 10);
+        numbers.put("Eleven", 11);
+        numbers.put("Twelve", 12);
+        numbers.put("Thirteen", 13);
+        numbers.put("Fourteen", 14);
+        numbers.put("Fifteen", 15);
 
         // Printing entries of HashMap.
         System.out.println("Newly created HashMap: "
@@ -50,7 +60,7 @@ class MapImplementations
 
         // Removing element from HashMap.
         int removedValue
-                = numbers.remove("Two");   // The remove method returns the value associated with the key that has been removed.
+                = numbers.remove("Fifteen");   // The remove method returns the value associated with the key that has been removed.
         System.out.println("Removed value from HashMap: "
                 + removedValue);
 
@@ -73,6 +83,16 @@ class MapImplementations
         numbers1.put("Three", 3);
         numbers1.put("Four", 4);
         numbers1.put("Five", 5);
+        numbers1.put("Six", 6);
+        numbers1.put("Seven", 7);
+        numbers1.put("Eight", 8);
+        numbers1.put("Nine", 9);
+        numbers1.put("Ten", 10);
+        numbers1.put("Eleven", 11);
+        numbers1.put("Twelve", 12);
+        numbers1.put("Thirteen", 13);
+        numbers1.put("Fourteen", 14);
+        numbers1.put("Fifteen", 15);
 
         // Printing newly created LinkedHashMap.
         System.out.println("Newly created LinkedHashMap: "
@@ -92,7 +112,7 @@ class MapImplementations
 
         // Removing elements from LinkedHashMap.
         int removedValue1
-                = numbers1.remove("Two");   // The remove method returns the value associated with the key that has been removed.
+                = numbers1.remove("Fifteen");   // The remove method returns the value associated with the key that has been removed.
         System.out.println("Removed value from LinkedHashMap: "
                 + removedValue1);
 
@@ -115,6 +135,16 @@ class MapImplementations
         numbers2.put("Three", 3);
         numbers2.put("Four", 4);
         numbers2.put("Five", 5);
+        numbers2.put("Six", 6);
+        numbers2.put("Seven", 7);
+        numbers2.put("Eight", 8);
+        numbers2.put("Nine", 9);
+        numbers2.put("Ten", 10);
+        numbers2.put("Eleven", 11);
+        numbers2.put("Twelve", 12);
+        numbers2.put("Thirteen", 13);
+        numbers2.put("Fourteen", 14);
+        numbers2.put("Fifteen", 15);
 
         System.out.println("Newly created TreeMap: "
                 + numbers2);
@@ -133,7 +163,7 @@ class MapImplementations
 
         // Removing element from TreeMap.
         int removedValue2
-                = numbers2.remove("Two");   // The remove method returns the value associated with the key that has been removed.
+                = numbers2.remove("Fifteen");   // The remove method returns the value associated with the key that has been removed.
         System.out.println("Removed value from TreeMap: "
                 + removedValue2);
 

@@ -170,8 +170,58 @@ class MapImplementations
         // Printing modified TreeMap.
         System.out.println("Modified entries of TreeMap: "
                 + numbers2.entrySet());
-
         System.out.print("------------------------------------------------");
+
+        //--------Another TreeMap----------
+        // Creating TreeMap.
+        Map<String, Integer> numbers2A = new TreeMap<>();
+
+        System.out.println("------------------------------------------------");
+        System.out.println("In the TreeHashMap, "
+                + '\n' +"left branch is sorted alphabetically from a to z "
+                + '\n' +"and right branch is sorted alphabetically from z to a." + '\n');
+        // Inserting elements in TreeMap.
+        numbers2A.put("L", 12);
+        numbers2A.put("S", 19);
+        numbers2A.put("W", 23);
+        numbers2A.put("R", 18);
+        numbers2A.put("Z", 26);
+        numbers2A.put("U", 21);
+        numbers2A.put("F", 6);
+        numbers2A.put("C", 3);
+        numbers2A.put("J", 10);
+        numbers2A.put("A", 1);
+        numbers2A.put("E", 5);
+
+
+        System.out.println("Newly created TreeMap: "
+                + numbers2A);
+
+        // Accessing keys of TreeMap.
+        System.out.println("Keys of TreeMap: "
+                + numbers2A.keySet());
+
+        // Accessing values of TreeMap.
+        System.out.println("Values of TreeMap: "
+                + numbers2A.values());
+
+        // Accessing Set view of TreeMap.
+        System.out.println("Set view of TreeMap: "
+                + numbers2A.entrySet());
+
+        // Removing element from TreeMap.
+        int removedValue2A
+                = numbers2A.remove("E");   // The remove method returns the value associated with the key that has been removed.
+        System.out.println("Removed value from TreeMap: "
+                + removedValue2A);
+
+        // Printing modified TreeMap.
+        System.out.println("Modified entries of TreeMap: "
+                + numbers2A.entrySet());
+        System.out.print("------------------------------------------------");
+
+
+
         //----------------Map implementation using TreeMap ends------------------------
 
     }   // End of execution thread.

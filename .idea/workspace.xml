@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MapImplementations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MapImplementations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665877972107</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Modified Java program: MapImplementations.java to increase the entries range and changed the value to be removed.">
+      <created>1665878729396</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665878729396</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -222,6 +230,7 @@
     <MESSAGE value="Added Java program: VectorThreadSafeEnumeration.java to demonstrate enumeration of vector." />
     <MESSAGE value="Added Java program: DequeImplementation.java to demonstrate implementation of Deque interface." />
     <MESSAGE value="Added Java program: SetImplementations.java to demonstrate implementation of Set interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: SetImplementations.java to demonstrate implementation of Set interface." />
+    <MESSAGE value="Modified Java program: MapImplementations.java to increase the entries range and changed the value to be removed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: MapImplementations.java to increase the entries range and changed the value to be removed." />
   </component>
 </project>

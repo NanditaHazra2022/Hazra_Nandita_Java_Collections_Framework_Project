@@ -1,6 +1,7 @@
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
+
 class Producer
         implements Runnable
 {
@@ -33,14 +34,14 @@ class Producer
     }
 }
 
-class Consumer
+class Consumer1
         implements Runnable {
 
     // Reference variable.
     private final BlockingQueue queue;
 
     // Constructor of Consumer class.
-    Consumer(BlockingQueue q)
+    Consumer1(BlockingQueue q)
     {
         queue = q;
     }
@@ -48,26 +49,60 @@ class Consumer
     // Thread.
     public void run() {
 
-        // Adding numbers 101 to 200, to the queue.
-        for (int i = 101;
-             i <= 200;
-             i++) {   // Start of for loop.
-            queue.add(i);
+        for(int i=1;
+            i<=5;
+            i++){
+
+            queue.remove(i);
+
+            System.out.println
+                    ("Consumer1 queue: "
+                            + queue
+                            + " --> Thread Id"
+                            + Thread.currentThread().getId() );
+
         }   // End of for loop.
 
-        // Printing consumer queue.
-        System.out.println
-                (
-                        "Consumer queue: "
-                                + queue
-                );
     }
 }
+
+class Consumer2
+        implements Runnable {
+
+    // Reference variable.
+    private final BlockingQueue queue;
+
+    // Constructor of Consumer class.
+    Consumer2(BlockingQueue q)
+    {
+        queue = q;
+    }
+
+    // Thread.
+    public void run() {
+
+        for(int i=6;
+            i<=10;
+            i++){
+
+            queue.remove(i);
+
+            System.out.println
+                    ("Consumer2 queue: "
+                            + queue
+                            + " --> Thread Id"
+                            + Thread.currentThread().getId() );
+
+        }   // End of for loop.
+
+    }
+}
+
 
 public class BlockingQueueImplementation
 {
 
-    public void main(String[] args)
+    public static void main(String[] args)
             throws InterruptedException
     {
         // define capacity of ArrayBlockingQueue
@@ -78,10 +113,10 @@ public class BlockingQueueImplementation
                 = new ArrayBlockingQueue<>(capacity);
         Producer p
                 = new Producer(q);
-        Consumer c1
-                = new Consumer(q);
-        Consumer c2
-                = new Consumer(q);
+        Consumer1 c1
+                = new Consumer1(q);
+        Consumer2 c2
+                = new Consumer2(q);
         new Thread(p).start();
         new Thread(c1).start();
         new Thread(c2).start();

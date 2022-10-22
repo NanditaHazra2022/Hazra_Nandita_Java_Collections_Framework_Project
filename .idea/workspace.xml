@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BlockingQueueImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BlockingQueueImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BlockingQueueImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +40,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MapImplementations">
-    <configuration name="ArrayPartitionPositiveNegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPartitionPositiveNegativeNumbers" />
+  <component name="RunManager" selected="Application.BlockingQueueImplementation">
+    <configuration name="BlockingQueueImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BlockingQueueImplementation" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlockingQueueImplementation" />
         <item itemvalue="Application.MapImplementations" />
         <item itemvalue="Application.SetImplementations" />
         <item itemvalue="Application.DequeImplementation" />
         <item itemvalue="Application.VectorThreadSafeEnumeration" />
-        <item itemvalue="Application.ArrayPartitionPositiveNegativeNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666152582541</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface.">
+      <created>1666327583548</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666327583548</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,6 +246,7 @@
     <MESSAGE value="Added Java program: SetImplementations.java to demonstrate implementation of Set interface." />
     <MESSAGE value="Modified Java program: MapImplementations.java to increase the entries range and changed the value to be removed." />
     <MESSAGE value="Modified Java program: MapImplementations.java to include another TreeMap." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: MapImplementations.java to include another TreeMap." />
+    <MESSAGE value="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface." />
   </component>
 </project>

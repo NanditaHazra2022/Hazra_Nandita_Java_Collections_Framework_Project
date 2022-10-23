@@ -12,15 +12,15 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 // Producer queue class.
-class Producer
+class ProdQueue
         implements Runnable
-{
+{   // Start of producer queue class
 
     // Reference variable.
     private final BlockingQueue prodQ;
 
     // Constructor of Producer queue class.
-    Producer(BlockingQueue pQ)
+    ProdQueue(BlockingQueue pQ)
     {
         prodQ = pQ;
     }
@@ -125,15 +125,15 @@ public class BlockingQueueImplementation
     {   // Start of execution thread.
 
         // Defining capacity of ArrayBlockingQueue.
-        int capacity = 100;
+        int capacity = 8;
 
         // Creating object of ArrayBlockingQueue.
         BlockingQueue<String> q
                 = new ArrayBlockingQueue<>(capacity);
 
         // Creating one producer and two consumer queues.
-        Producer p
-                = new Producer(q);
+        ProdQueue p
+                = new ProdQueue(q);
         Consumer1 c1
                 = new Consumer1(q);
         Consumer2 c2

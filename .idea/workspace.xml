@@ -232,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666410178280</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Modified Java program: BlockingQueueImplementation.java for added comments and modified for loop range.">
+      <created>1666504309463</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1666504309463</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,6 +262,7 @@
     <MESSAGE value="Modified Java program: MapImplementations.java to include another TreeMap." />
     <MESSAGE value="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface." />
     <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for having a static keyword. The consumer thread can only remove elements, hence the Consumer class was modified accordingly." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: BlockingQueueImplementation.java for having a static keyword. The consumer thread can only remove elements, hence the Consumer class was modified accordingly." />
+    <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for added comments and modified for loop range." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: BlockingQueueImplementation.java for added comments and modified for loop range." />
   </component>
 </project>

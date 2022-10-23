@@ -225,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666327583548</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Modified Java program: BlockingQueueImplementation.java for having a static keyword. The consumer thread can only remove elements, hence the Consumer class was modified accordingly.">
+      <created>1666410178280</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666410178280</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +254,7 @@
     <MESSAGE value="Modified Java program: MapImplementations.java to increase the entries range and changed the value to be removed." />
     <MESSAGE value="Modified Java program: MapImplementations.java to include another TreeMap." />
     <MESSAGE value="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface." />
+    <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for having a static keyword. The consumer thread can only remove elements, hence the Consumer class was modified accordingly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: BlockingQueueImplementation.java for having a static keyword. The consumer thread can only remove elements, hence the Consumer class was modified accordingly." />
   </component>
 </project>

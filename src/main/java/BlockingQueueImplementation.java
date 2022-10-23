@@ -1,63 +1,75 @@
+/* Java program to demonstrate
+* BlockingQueue interface.
+* There is one producer queue
+* and two consumer queues.
+* Producer queue will add
+* elements to the queue.
+* Consumer queues will remove
+* elements from the queue. */
+
+// Importing required classes.
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-
+// Producer queue class.
 class Producer
         implements Runnable
 {
 
     // Reference variable.
-    private final BlockingQueue queue;
+    private final BlockingQueue prodQ;
 
-    // Constructor of Producer class.
-    Producer(BlockingQueue q)
+    // Constructor of Producer queue class.
+    Producer(BlockingQueue pQ)
     {
-        queue = q;
+        prodQ = pQ;
     }
 
     // Thread.
     public void run() {
 
-        // Adding numbers 1 to 10, to the queue.
-        for (int i = 1;
-             i <= 10;
-             i++) {   // Start of for loop.
-            queue.add(i);
+        // Adding numbers 101 to 108 into the queue.
+        for (int i = 101;
+             i <= 108;
+             i++)
+        {   // Start of for loop.
+            prodQ.add(i);
         }   // End of for loop.
 
         // Printing producer queue.
         System.out.println
                 (
                         "Producer queue: "
-                                + queue
+                                + prodQ
                 );
     }
 }
 
+// Consumer queue-one class.
 class Consumer1
         implements Runnable {
 
     // Reference variable.
-    private final BlockingQueue queue;
+    private final BlockingQueue conQ1;
 
-    // Constructor of Consumer class.
-    Consumer1(BlockingQueue q)
+    // Constructor of Consumer queue-one class.
+    Consumer1(BlockingQueue cQ1)
     {
-        queue = q;
+        conQ1 = cQ1;
     }
 
     // Thread.
     public void run() {
 
-        for(int i=1;
-            i<=5;
-            i++){
+        for(int i=101;
+            i<=104;
+            i=i+2){
 
-            queue.remove(i);
+            conQ1.remove(i);
 
             System.out.println
                     ("Consumer1 queue: "
-                            + queue
+                            + conQ1
                             + " --> Thread Id"
                             + Thread.currentThread().getId() );
 
@@ -66,60 +78,73 @@ class Consumer1
     }
 }
 
+// Consumer queue-two class.
 class Consumer2
         implements Runnable {
 
     // Reference variable.
-    private final BlockingQueue queue;
+    private final BlockingQueue conQ2;
 
     // Constructor of Consumer class.
-    Consumer2(BlockingQueue q)
+    Consumer2(BlockingQueue cQ2)
     {
-        queue = q;
+        conQ2 = cQ2;
     }
 
     // Thread.
-    public void run() {
+    public void run()
+    {   // Start of thread.
 
-        for(int i=6;
-            i<=10;
-            i++){
+        for(int i=105;
+            i<=108;
+            i=i+3)
+        {// Start of for loop.
 
-            queue.remove(i);
+            conQ2.remove(i);
 
             System.out.println
                     ("Consumer2 queue: "
-                            + queue
+                            + conQ2
                             + " --> Thread Id"
                             + Thread.currentThread().getId() );
 
         }   // End of for loop.
 
-    }
-}
+    }   // End of thread.
+
+}   // End of Consumer queue-two class.
 
 
+// Main class.
 public class BlockingQueueImplementation
-{
+{   // Start of main class.
 
+    // Starting point of execution.
     public static void main(String[] args)
             throws InterruptedException
-    {
-        // define capacity of ArrayBlockingQueue
-        int capacity = 10;
+    {   // Start of execution thread.
 
-        // create object of ArrayBlockingQueue
+        // Defining capacity of ArrayBlockingQueue.
+        int capacity = 100;
+
+        // Creating object of ArrayBlockingQueue.
         BlockingQueue<String> q
                 = new ArrayBlockingQueue<>(capacity);
+
+        // Creating one producer and two consumer queues.
         Producer p
                 = new Producer(q);
         Consumer1 c1
                 = new Consumer1(q);
         Consumer2 c2
                 = new Consumer2(q);
+
+        // Starting threads.
         new Thread(p).start();
         new Thread(c1).start();
         new Thread(c2).start();
-    }
-}
+
+    }   // End of execution thread.
+
+}   // End of main class.
 

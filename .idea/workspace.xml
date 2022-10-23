@@ -239,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666504309463</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Modified Java program: BlockingQueueImplementation.java for renaming Producer class to ProdQueue class.">
+      <created>1666507179729</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1666507179729</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -263,6 +270,7 @@
     <MESSAGE value="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface." />
     <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for having a static keyword. The consumer thread can only remove elements, hence the Consumer class was modified accordingly." />
     <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for added comments and modified for loop range." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: BlockingQueueImplementation.java for added comments and modified for loop range." />
+    <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for renaming Producer class to ProdQueue class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: BlockingQueueImplementation.java for renaming Producer class to ProdQueue class." />
   </component>
 </project>

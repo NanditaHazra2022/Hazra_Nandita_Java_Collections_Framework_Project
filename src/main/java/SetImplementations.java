@@ -91,6 +91,7 @@ public class SetImplementations
         numbers2.add(350);
         numbers2.add(45);
         numbers2.add(5000);
+        numbers2.add(350);  // This integer will be not inserted in the TreeSet as it is a duplicate.
 
         System.out.println("Newly created TreeSet: "
                 + numbers2);
@@ -108,6 +109,7 @@ public class SetImplementations
         System.out.println("------------------------------------------------" + '\n');
         //----------------Set implementation using TreeSet ends------------------------
 
+        System.out.println("------------------------------------------------");
 
     }   // End of execution thread.
 

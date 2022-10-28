@@ -13,7 +13,7 @@ public class QueueImplementation
     public static void main(String[] args)
     {   // Start of execution thread.
 
-        // Creating integer queue.
+        // Creating integer queue using LinkedList.
         Queue<Integer> numberQueue = new LinkedList<>();
 
         // Adding numbers 1 to 10, to the queue.

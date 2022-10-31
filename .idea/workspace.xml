@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BlockingQueueImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BlockingQueueImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListBulkOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayListBulkOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BlockingQueueImplementation">
+  <component name="RunManager" selected="Application.ArrayListBulkOperations">
     <configuration name="ArrayListBulkOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListBulkOperations" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
@@ -89,10 +88,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.BlockingQueueImplementation" />
         <item itemvalue="Application.ArrayPartitionPositiveNegativeNumbers" />
         <item itemvalue="Application.ArrayListPushZeroToTheEnd" />
-        <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.StackImplementation" />
       </list>
     </recent_temporary>
@@ -281,11 +280,17 @@
       <option name="project" value="LOCAL" />
       <updated>1667203335718</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Modified Java program: BlockingQueueImplementation.java to remove 18 warnings for errors as was present in the code.">
+      <created>1667207802987</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1667207802987</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Java program of dynamic array having multiple datatypes." />
     <MESSAGE value="Added Java program to move zero value elements to end of integer dynamic array." />
     <MESSAGE value="Added Java program to move zero value element(s) to end of integer dynamic array." />
     <MESSAGE value="Added Java program to copy from source dynamic array to destination dynamic array." />
@@ -310,6 +315,7 @@
     <MESSAGE value="Added Java program: StackImplementation.java" />
     <MESSAGE value="Modified Java program: ArrayListPushZeroToTheEnd.java to change the array declaration for args." />
     <MESSAGE value="Modified Java program: ArrayPartitionPositiveNegativeNumbers.java to change the array declaration for arr." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: ArrayPartitionPositiveNegativeNumbers.java to change the array declaration for arr." />
+    <MESSAGE value="Modified Java program: BlockingQueueImplementation.java to remove 18 warnings for errors as was present in the code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: BlockingQueueImplementation.java to remove 18 warnings for errors as was present in the code." />
   </component>
 </project>

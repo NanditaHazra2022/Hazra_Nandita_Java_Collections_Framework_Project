@@ -46,9 +46,16 @@ public class ArrayListBulkOperations
 
         /* Printing the modified
          * string dynamic array. */
-        System.out.println("Modified string dynamic array-> ");
-        Collections.replaceAll(items, "Articles", "Magazines");
 
+        boolean result
+                = Collections.replaceAll(items, "Articles", "Magazines");
+
+        System.out.println(
+                "Replaced articles with magazines (true/false) ? Answer: "
+                        + result
+        );
+
+        System.out.println("Modified string dynamic array-> ");
         for (Object o: items)
         {
 

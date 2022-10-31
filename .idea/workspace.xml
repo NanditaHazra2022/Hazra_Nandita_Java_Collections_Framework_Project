@@ -39,16 +39,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MapImplementations">
+  <component name="RunManager" selected="Application.SetImplementations">
     <configuration name="ArrayListBulkOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListBulkOperations" />
-      <module name="Hazra_Nandie_Java_Collections_Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListPushZeroToTheEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListPushZeroToTheEnd" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,6 +68,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetImplementations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetImplementations" />
+      <module name="Hazra_Nandie_Java_Collections_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetImplementations" />
         <item itemvalue="Application.MapImplementations" />
         <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.BlockingQueueImplementation" />
         <item itemvalue="Application.ArrayPartitionPositiveNegativeNumbers" />
-        <item itemvalue="Application.ArrayListPushZeroToTheEnd" />
       </list>
     </recent_temporary>
   </component>

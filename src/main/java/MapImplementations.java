@@ -177,9 +177,9 @@ class MapImplementations
         Map<String, Integer> numbers2A = new TreeMap<>();
 
         System.out.println("------------------------------------------------");
-        System.out.println("In the TreeHashMap, "
-                + '\n' +"left branch is sorted alphabetically from a to z "
-                + '\n' +"and right branch is sorted alphabetically from z to a." + '\n');
+        System.out.println("In the TreeHashMap, ");
+        System.out.println("left branch is sorted alphabetically from a to z ");
+        System.out.println("and right branch is sorted alphabetically from z to a." + '\n');
         // Inserting elements in TreeMap.
         numbers2A.put("L", 12);
         numbers2A.put("S", 19);

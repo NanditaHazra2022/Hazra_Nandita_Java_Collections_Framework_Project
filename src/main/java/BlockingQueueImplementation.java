@@ -28,27 +28,28 @@ class ProdQueue
 {   // Start of producer queue class
 
     // Reference variable.
-    private final BlockingQueue prodQ;
+    private final BlockingQueue<String> pQ;
 
     // Constructor of Producer queue class.
-    ProdQueue(BlockingQueue pQ)
+    ProdQueue(BlockingQueue<String> pQ)
     {
-        prodQ = pQ;
+
+        this.pQ = pQ;
     }
 
     // Thread.
     public void run() {
 
-        prodQ.add("Gluten free Black rice 5 kg");
-        prodQ.add("THE WAR FOR KINDNESS by Jamil Jaki");
-        prodQ.add("Black board game");
-        prodQ.add("Green window curtains");
+        pQ.add("Gluten free Black rice 5 kg");
+        pQ.add("THE WAR FOR KINDNESS by Jamil Jaki");
+        pQ.add("Black board game");
+        pQ.add("Green window curtains");
 
         // Printing producer queue.
         System.out.println
                 (
                         "Producer queue: "
-                                + prodQ
+                                + pQ
                 );
     }
 }
@@ -59,23 +60,29 @@ class Consumer1
 {   // Start of consumer queue 1 class.
 
     // Reference variable.
-    private final BlockingQueue conQ1;
+    private final BlockingQueue<String> cQ1;
 
     // Constructor of Consumer queue-one class.
-    Consumer1(BlockingQueue cQ1)
+    Consumer1(BlockingQueue<String> cQ1)
     {
-        conQ1 = cQ1;
+
+        this.cQ1 = cQ1;
     }
 
     // Thread.
     public void run()
     {   // Start of consumer thread.
 
-            conQ1.remove("Gluten free Black rice 5 kg");
+        boolean result1 = cQ1.remove("Gluten free Black rice 5 kg");
+
+        System.out.println(
+                "Item: 1 shipped (true/false) ? Answer: "
+                        + result1
+        );
 
             System.out.println
                     ("Consumer1 queue: "
-                            + conQ1
+                            + cQ1
                             + " --> Thread Id"
                             + Thread.currentThread().getId() );
 
@@ -89,23 +96,28 @@ class Consumer2
 {   // Start of consumer queue 1 class.
 
     // Reference variable.
-    private final BlockingQueue conQ2;
+    private final BlockingQueue<String> cQ2;
 
     // Constructor of Consumer queue-one class.
-    Consumer2(BlockingQueue cQ2)
+    Consumer2(BlockingQueue<String> cQ2)
     {
-        conQ2 = cQ2;
+        this.cQ2 = cQ2;
     }
 
     // Thread.
     public void run()
     {   // Start of consumer thread.
 
-        conQ2.remove("THE WAR FOR KINDNESS by Jamil Jaki");
+        boolean result2 = cQ2.remove("THE WAR FOR KINDNESS by Jamil Jaki");
+
+        System.out.println(
+                "Item: 2 shipped (true/false) ? Answer: "
+                        + result2
+        );
 
         System.out.println
                 ("Consumer2 queue: "
-                        + conQ2
+                        + cQ2
                         + " --> Thread Id"
                         + Thread.currentThread().getId() );
 
@@ -119,23 +131,28 @@ class Consumer3
 {   // Start of consumer queue 1 class.
 
     // Reference variable.
-    private final BlockingQueue conQ3;
+    private final BlockingQueue<String> cQ3;
 
     // Constructor of Consumer queue-one class.
-    Consumer3(BlockingQueue cQ3)
+    Consumer3(BlockingQueue<String> cQ3)
     {
-        conQ3 = cQ3;
+        this.cQ3 = cQ3;
     }
 
     // Thread.
     public void run()
     {   // Start of consumer thread.
 
-        conQ3.remove("Black board game");
+        boolean result3 = cQ3.remove("Black board game");
+
+        System.out.println(
+                "Item: 3 shipped (true/false) ? Answer: "
+                        + result3
+        );
 
         System.out.println
                 ("Consumer3 queue: "
-                        + conQ3
+                        + cQ3
                         + " --> Thread Id"
                         + Thread.currentThread().getId() );
 
@@ -149,23 +166,28 @@ class Consumer4
 {   // Start of consumer queue 1 class.
 
     // Reference variable.
-    private final BlockingQueue conQ4;
+    private final BlockingQueue<String> cQ4;
 
     // Constructor of Consumer queue-one class.
-    Consumer4(BlockingQueue cQ4)
+    Consumer4(BlockingQueue<String> cQ4)
     {
-        conQ4 = cQ4;
+        this.cQ4 = cQ4;
     }
 
     // Thread.
     public void run()
     {   // Start of consumer thread.
 
-        conQ4.remove("Green window curtains");
+        boolean result4 = cQ4.remove("Green window curtains");
+
+        System.out.println(
+                "Item: 4 shipped (true/false) ? Answer: "
+                + result4
+        );
 
         System.out.println
                 ("Consumer4 queue: "
-                        + conQ4
+                        + cQ4
                         + " --> Thread Id"
                         + Thread.currentThread().getId() );
 

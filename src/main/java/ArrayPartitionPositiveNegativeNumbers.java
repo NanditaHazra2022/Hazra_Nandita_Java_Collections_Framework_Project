@@ -99,7 +99,7 @@ public class ArrayPartitionPositiveNegativeNumbers
      * of two dynamic array:
      * first will store the positive numbers
      * and second will store the negative numbers. */
-    static void partitionNegativeAndPositive(int n, int arr[]) {
+    static void partitionNegativeAndPositive(int n, int[] arr) {
 
         ArrayList<Integer> arrPositive
                 = new ArrayList<>();    // Dynamic array of positive numbers.

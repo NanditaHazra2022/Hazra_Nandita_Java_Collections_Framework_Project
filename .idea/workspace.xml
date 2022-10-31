@@ -40,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListPushZeroToTheEnd">
+  <component name="RunManager" selected="Application.ArrayPartitionPositiveNegativeNumbers">
     <configuration name="ArrayListBulkOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListBulkOperations" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
@@ -55,15 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountOps" />
+    <configuration name="ArrayPartitionPositiveNegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPartitionPositiveNegativeNumbers" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetImplementations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetImplementations" />
+    <configuration name="CountOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountOps" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayPartitionPositiveNegativeNumbers" />
         <item itemvalue="Application.ArrayListPushZeroToTheEnd" />
         <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.StackImplementation" />
         <item itemvalue="Application.CountOps" />
-        <item itemvalue="Application.SetImplementations" />
       </list>
     </recent_temporary>
   </component>

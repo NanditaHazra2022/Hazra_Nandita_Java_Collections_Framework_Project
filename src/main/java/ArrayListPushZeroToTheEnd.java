@@ -12,7 +12,7 @@ public class ArrayListPushZeroToTheEnd
 {   // Start of main class.
 
     // Starting point of execution.
-    public static void main(String args[])
+    public static void main(String[] args)
     {   // Start of thread of execution.
 
         // Creating object of Scanner class.

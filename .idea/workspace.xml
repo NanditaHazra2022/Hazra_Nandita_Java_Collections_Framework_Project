@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/StackImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListPushZeroToTheEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayListPushZeroToTheEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +40,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackImplementation">
-    <configuration name="BlockingQueueImplementation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlockingQueueImplementation" />
+  <component name="RunManager" selected="Application.ArrayListPushZeroToTheEnd">
+    <configuration name="ArrayListBulkOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListBulkOperations" />
+      <module name="Hazra_Nandie_Java_Collections_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListPushZeroToTheEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListPushZeroToTheEnd" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,13 +57,6 @@
     </configuration>
     <configuration name="CountOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountOps" />
-      <module name="Hazra_Nandie_Java_Collections_Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapImplementations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MapImplementations" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListPushZeroToTheEnd" />
+        <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.StackImplementation" />
         <item itemvalue="Application.CountOps" />
         <item itemvalue="Application.SetImplementations" />
-        <item itemvalue="Application.BlockingQueueImplementation" />
-        <item itemvalue="Application.MapImplementations" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666951576065</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added Java program: StackImplementation.java">
+      <created>1667198261709</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667198261709</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -287,6 +294,7 @@
     <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for renaming Producer class to ProdQueue class." />
     <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for implementing eCommerce portal." />
     <MESSAGE value="Modified Java program: SetImplementations.java to demonstrate that the TreeSet cannot have duplicates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: SetImplementations.java to demonstrate that the TreeSet cannot have duplicates." />
+    <MESSAGE value="Added Java program: StackImplementation.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: StackImplementation.java" />
   </component>
 </project>

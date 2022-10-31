@@ -12,7 +12,7 @@
 import java.util.Stack;
 
 // Main class
-public class StackImplementation
+public class StackImplementations
 {   // Start of main class block.
 
     // Pushing element on the top of the stack.

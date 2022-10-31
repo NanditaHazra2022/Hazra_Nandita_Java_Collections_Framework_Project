@@ -6,7 +6,7 @@
 * 2. Pop elements from the stack.
 * 3. Push elements to the modified stack.
 * 4. Find the element on top of stack.
-* 5. Find the position of element in the stack. */
+* 5. Find the position of elements in the stack. */
 
 // Importing required class.
 import java.util.Stack;
@@ -45,7 +45,7 @@ public class StackImplementation
     // Displaying element on the top of the stack.
     static void stackPeek(Stack<Integer> stack)
     {
-        Integer element = (Integer) stack.peek();   // In-built Java method.
+        Integer element = stack.peek();   // In-built Java method.
         System.out.println("Element on stack top: " + element);
     }
 
@@ -53,7 +53,7 @@ public class StackImplementation
     static void stackElemPos(Stack<Integer> stack, int element)
     {   // Start of finding position block.
 
-        Integer pos = (Integer) stack.search(element);  // In-built Java method
+        int pos = stack.search(element);  // In-built Java method
 
         // if-else condition to check position exists
         if(pos == -1) {
@@ -78,7 +78,7 @@ public class StackImplementation
     {   // Start of execution thread.
 
         // Declaring stack.
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<>();
 
         // Adding elements to stack.
         stackPush(stack);
@@ -104,7 +104,8 @@ public class StackImplementation
         // Finding the element on top of stack.
         stackPeek(stack);
 
-        // Finding the position of an element that exists in stack.
+        // Finding the position of elements that exist in stack.
+        stackElemPos(stack, 8);
         stackElemPos(stack, 6);
 
     }

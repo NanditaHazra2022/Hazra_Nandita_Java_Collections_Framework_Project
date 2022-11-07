@@ -15,7 +15,8 @@ public class ArrayListBulkOperations
 {   // Start of main thread.
 
     // Starting point of execution.
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {   // Start of execution thread block.
 
         // Creating a string dynamic array.
         List<String> items = new ArrayList<>();

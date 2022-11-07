@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayListFrequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayListDisjoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +40,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListFrequency">
+  <component name="RunManager" selected="Application.ArrayListDisjoint">
     <configuration name="ArrayListCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListCopy" />
+      <module name="Hazra_Nandie_Java_Collections_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListDisjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListDisjoint" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,13 +64,6 @@
     </configuration>
     <configuration name="ArrayListFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListFrequency" />
-      <module name="Hazra_Nandie_Java_Collections_Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListReverse" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListDisjoint" />
         <item itemvalue="Application.ArrayListFrequency" />
         <item itemvalue="Application.ArrayListSwap" />
         <item itemvalue="Application.ArrayListCopy" />
         <item itemvalue="Application.ArrayListFill" />
-        <item itemvalue="Application.ArrayListReverse" />
       </list>
     </recent_temporary>
   </component>
@@ -351,11 +351,17 @@
       <option name="project" value="LOCAL" />
       <updated>1667824646728</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added Java program: ArrayListFrequency.java">
+      <created>1667830103467</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1667830103467</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Java program: ArrayPartitionPositiveNegativeNumbers.java to partition an array for positive and negative numbers. Dynamic array method is used for the same." />
     <MESSAGE value="Added Java program: VectorThreadSafeEnumeration.java to demonstrate enumeration of vector." />
     <MESSAGE value="Added Java program: DequeImplementation.java to demonstrate implementation of Deque interface." />
     <MESSAGE value="Added Java program: SetImplementations.java to demonstrate implementation of Set interface." />
@@ -380,6 +386,7 @@
     <MESSAGE value="Added Java program: ArrayListFill.java" />
     <MESSAGE value="Added Java program: ArrayListCopy.java" />
     <MESSAGE value="Added Java program: ArrayListSwap.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: ArrayListSwap.java" />
+    <MESSAGE value="Added Java program: ArrayListFrequency.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: ArrayListFrequency.java" />
   </component>
 </project>

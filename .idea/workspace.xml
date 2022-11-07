@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayListReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayListFill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListBulkOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayListBulkOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +40,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListReverse">
-    <configuration name="ArrayListBulkOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListBulkOperations" />
+  <component name="RunManager" selected="Application.ArrayListFill">
+    <configuration name="ArrayListFill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListFill" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListFill" />
         <item itemvalue="Application.ArrayListReverse" />
         <item itemvalue="Application.StackImplementation" />
         <item itemvalue="Application.SetImplementations" />
         <item itemvalue="Application.MapImplementations" />
-        <item itemvalue="Application.ArrayListBulkOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -324,11 +323,17 @@
       <option name="project" value="LOCAL" />
       <updated>1667209335199</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added Java program: ArrayListReverse.java">
+      <created>1667809118887</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1667809118887</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modified Java program: ArrayListBulkOperations.java to add usage of Collections.replaceAll method." />
     <MESSAGE value="Modified Java program: ArrayListBulkOperations.java to add more context in the comments section." />
     <MESSAGE value="Added Java program: QueueImplementation.java to demonstrate queue implementation." />
     <MESSAGE value="Added Java program: ArrayListIterations.java to demonstrate forward, backward and alternate position iteration in dynamic array." />
@@ -353,6 +358,7 @@
     <MESSAGE value="Modified Java program: SetImplementations.java to remove 1 warning for error as was present in the code." />
     <MESSAGE value="Modified Java program: StackImplementation.java to remove 4 warnings for errors as were present in the code." />
     <MESSAGE value="Renamed file SetImplementation.java to SetImplementations.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed file SetImplementation.java to SetImplementations.java" />
+    <MESSAGE value="Added Java program: ArrayListReverse.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: ArrayListReverse.java" />
   </component>
 </project>

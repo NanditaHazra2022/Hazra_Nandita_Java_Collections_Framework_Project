@@ -56,7 +56,7 @@ public class ArrayListBulkOperations
                         + result
         );
 
-        System.out.println("Modified string dynamic array-> ");
+        System.out.println("\nModified string dynamic array-> ");
         for (Object o: items)
         {
 

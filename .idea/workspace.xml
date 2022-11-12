@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayListDescSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +40,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListBulkOperations">
+  <component name="RunManager" selected="Application.ArrayListDescSort">
     <configuration name="ArrayListBulkOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListBulkOperations" />
+      <module name="Hazra_Nandie_Java_Collections_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListDescSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListDescSort" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -56,13 +64,6 @@
     </configuration>
     <configuration name="ArrayListFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListFrequency" />
-      <module name="Hazra_Nandie_Java_Collections_Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListSwap" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListDescSort" />
         <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.DequeIteration" />
         <item itemvalue="Application.ArrayListDisjoint" />
         <item itemvalue="Application.ArrayListFrequency" />
-        <item itemvalue="Application.ArrayListSwap" />
       </list>
     </recent_temporary>
   </component>
@@ -371,11 +372,17 @@
       <option name="project" value="LOCAL" />
       <updated>1667904545065</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Modified Java program: ArrayListBulkOperations.java to add single line spacing between statements that are being printed on the output console.">
+      <created>1668092456339</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1668092456339</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Java program: SetImplementations.java to demonstrate implementation of Set interface." />
     <MESSAGE value="Modified Java program: MapImplementations.java to increase the entries range and changed the value to be removed." />
     <MESSAGE value="Modified Java program: MapImplementations.java to include another TreeMap." />
     <MESSAGE value="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface." />
@@ -400,6 +407,7 @@
     <MESSAGE value="Added Java program: ArrayListFrequency.java" />
     <MESSAGE value="Added Java program: ArrayListDisjoint.java" />
     <MESSAGE value="Added Java program: DequeIteration.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: DequeIteration.java" />
+    <MESSAGE value="Modified Java program: ArrayListBulkOperations.java to add single line spacing between statements that are being printed on the output console." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: ArrayListBulkOperations.java to add single line spacing between statements that are being printed on the output console." />
   </component>
 </project>

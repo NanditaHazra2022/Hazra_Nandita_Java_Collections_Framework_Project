@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd401a6f-4820-4827-a770-0ff19ae67916" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayListBinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayListBulkOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayListBulkOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListBinarySearch">
+  <component name="RunManager" selected="Application.ArrayListBulkOperations">
     <configuration name="ArrayListBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListBinarySearch" />
       <module name="Hazra_Nandie_Java_Collections_Project" />
@@ -89,9 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.ArrayListBinarySearch" />
         <item itemvalue="Application.ArrayListDescSort" />
-        <item itemvalue="Application.ArrayListBulkOperations" />
         <item itemvalue="Application.DequeIteration" />
         <item itemvalue="Application.ArrayListDisjoint" />
       </list>
@@ -386,11 +386,17 @@
       <option name="project" value="LOCAL" />
       <updated>1668257800866</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Modified Java program: ArrayListBinarySearch.java for bulk operation.">
+      <created>1668935747727</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1668935747727</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modified Java program: MapImplementations.java to include another TreeMap." />
     <MESSAGE value="Added Java program: BlockingQueueImplementation.java for implementing BlockingQueue interface." />
     <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for having a static keyword. The consumer thread can only remove elements, hence the Consumer class was modified accordingly." />
     <MESSAGE value="Modified Java program: BlockingQueueImplementation.java for added comments and modified for loop range." />
@@ -415,6 +421,7 @@
     <MESSAGE value="Added Java program: DequeIteration.java" />
     <MESSAGE value="Modified Java program: ArrayListBulkOperations.java to add single line spacing between statements that are being printed on the output console." />
     <MESSAGE value="Added Java program: ArrayListDescSort.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Java program: ArrayListDescSort.java" />
+    <MESSAGE value="Modified Java program: ArrayListBinarySearch.java for bulk operation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Java program: ArrayListBinarySearch.java for bulk operation." />
   </component>
 </project>

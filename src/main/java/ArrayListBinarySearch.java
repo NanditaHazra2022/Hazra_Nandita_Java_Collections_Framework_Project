@@ -18,17 +18,13 @@ public class ArrayListBinarySearch
     public static void main(String[] args)
     {   // Start of execution thread.
 
-        // Creating a string dynamic array
+        // Creating a string dynamic array.
         List<String> items = new ArrayList<>();
 
         /* Adding elements to
          * the string dynamic array
          * using add method. */
-        items.add("Books");
-        items.add("Toys");
-        items.add("Puzzles");
-        items.add("Music");
-        items.add("Dance");
+        Collections.addAll(items, "Laptop", "Laptop charger", "Mobile phone", "Mobile phone charger");
 
         /* Sorting the string dynamic array
          * before binary search is performed. */
@@ -36,9 +32,9 @@ public class ArrayListBinarySearch
 
         /* Performing binary search
          * in the sorted
-         * string dynamic array,*/
-        System.out.println("The index of Music is "
-                + Collections.binarySearch(items, "Music"));
+         * string dynamic array. */
+        System.out.println("The index of Mobile phone is "
+                + Collections.binarySearch(items, "Mobile phone"));
 
     }   // End of execution thread.
 
